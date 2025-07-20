@@ -66,9 +66,7 @@ Tesseract OCR: Install manually (see below)
 YUKTHI-PRABHU/
 
 └── FSMK/
-
-    ├── Problem-1 Complex Text/
-    
+    ├── Problem-1 Complex Text/ 
     │   ├── text_2.pdf
     │   ├── pjct.py
     │   └── output.txt
