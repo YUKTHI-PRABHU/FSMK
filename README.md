@@ -45,7 +45,7 @@ Testing and refining prompt strategies
 
 Installation:
 
-```bash  pip install pymupdf
+ pip install pymupdf
 
 🖼️** OCR for Scanned PDFs**
 
@@ -53,7 +53,7 @@ Installation:
 
 Installation:
 
-```bash pip install pytesseract pdf2image pillow
+ pip install pytesseract pdf2image pillow
 
 
 Tesseract OCR: Install manually (see below)
