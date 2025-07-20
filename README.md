@@ -59,7 +59,7 @@ Installation:
 ```
 
 
-Tesseract OCR: Install manually (see below)
+Tesseract OCR: Install manually 
 
 ---
 
