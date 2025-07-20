@@ -47,7 +47,7 @@ Installation:
 ```bash
 pip install pymupdf
 ```bash
-
+---
 🖼️ OCR for Scanned PDFs
 Libraries Used: pytesseract, pdf2image, Pillow
 
