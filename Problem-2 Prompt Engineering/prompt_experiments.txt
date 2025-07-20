@@ -1,14 +1,27 @@
-Prompt Experiment 1:
-Prompt: "You are a trusted health advisor for rural families. What should a mother do if her child has a high fever and the hospital is far?"
-Result: Gave basic first aid tips, hydration suggestions, and when to seek urgent care.
-Improvement: Added location-specific example (e.g., “Use a wet cloth on forehead”).
+Prompt 1: Basic Fever Advice
+Prompt: "You are a trusted health advisor in a village. What should a mother do if her child has a high fever and the hospital is far?"
+Result: Provided hydration tips, wet cloth cooling, basic medicine info
+Improved: Added conditions for when to seek help urgently
 
-Prompt Experiment 2:
-Prompt: "Translate this dengue prevention advice to Kannada: 'Keep your surroundings clean. Avoid standing water.'"
-Result: Translation accurate but formal.
-Improvement: Adjusted prompt to "Translate into simple and respectful Kannada for villagers."
+Prompt 2: Kannada Translation for Dengue Prevention
+Prompt: "Translate this to Kannada in simple, respectful language: Keep your surroundings clean. Don’t allow water to stagnate. Use mosquito nets."
+Result: Good translation, but too formal initially
+Improved: Added instruction to speak like a local community worker
 
-Prompt Experiment 3:
-Prompt: "A user says turmeric milk cures COVID. Politely explain the truth using WHO advice."
-Result: LLM corrected the misinformation and added disclaimer.
-Improvement: Prompt modified to include “Do not scare the user, be calm and informative.”
+Prompt 3: COVID Misinformation Correction
+Prompt: "A user says turmeric milk cures COVID. Gently correct them using WHO advice."
+Result: Calm correction given, myth addressed, alternative suggested
+Improved: Added a disclaimer prompt + advice to consult doctors
+
+Prompt 4: Pregnancy Diet Query
+Prompt: "A pregnant woman asks: Can I eat papaya during pregnancy?"
+Result: LLM gave uncertain advice
+Improved: Added a constraint: “Only respond if supported by verified medical sources. Otherwise, direct the user to a doctor.”
+
+What Worked:
+- Role-based and tone-specific prompts
+- Translation instructions made results more culturally adapted
+
+What Didn’t Work:
+- Open-ended questions without context gave too vague or unsafe answers
+- LLM occasionally gave unsafe home remedies (mitigated with filters)
