@@ -84,7 +84,7 @@ YUKTHI-PRABHU/
 ```
 ---
 
-** Requirements**
+**Requirements**
 ```
 pymupdf
 pytesseract
