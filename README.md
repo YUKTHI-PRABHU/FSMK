@@ -1,4 +1,4 @@
-<h1 style="font-size: 48px;">📄 PDF Text Extraction & Prompt Engineering</h1>
+<h1 style="font-size: 48px;">PDF Text Extraction & Prompt Engineering</h1>
 
  **Introduction**  
  
@@ -25,7 +25,7 @@ Crafting structured prompts
 Testing and refining prompt strategies
 
 ---
-🧰 **Tools & Libraries:**
+ **Tools & Libraries:**
 
 **Read PDF**	              -PyMuPDF (fitz), pdfplumber, PyPDF2
 
@@ -37,9 +37,9 @@ Testing and refining prompt strategies
 
 ---
 
-⚙️ **Installation & Approaches:**
+ **Installation & Approaches:**
 
-**📄 Text Extraction from Simple PDFs**
+** Text Extraction from Simple PDFs**
 
 **Library Used:** PyMuPDF (fitz)
 
@@ -49,7 +49,7 @@ Installation:
 ```
 
 
-**🖼️ OCR for Scanned PDFs**
+**OCR for Scanned PDFs**
 
 **Libraries Used:** pytesseract, pdf2image, Pillow
 
@@ -63,7 +63,7 @@ Tesseract OCR: Install manually (see below)
 
 ---
 
-**🏗️ Project Structure**
+**Project Structure**
 ```
 YUKTHI-PRABHU/
 └── FSMK/
@@ -84,7 +84,7 @@ YUKTHI-PRABHU/
 ```
 ---
 
-**📦 Requirements**
+** Requirements**
 ```
 pymupdf
 pytesseract
@@ -93,9 +93,9 @@ Pillow
 ```
 
 
-**🧹 Text Cleaning Steps**
+** Text Cleaning Steps**
 
-✅ For Simple PDFs:
+For Simple PDFs:
 ```bash
 mkdir pdf_extraction
 cd pdf_extraction
@@ -116,7 +116,7 @@ python pjct.py
 ```
 ---
 
-✅ For Scanned PDFs:
+For Scanned PDFs:
 ```bash
 mkdir pdf_extraction
 cd pdf_extraction
@@ -136,12 +136,12 @@ Run:
 python pjct.py
 ```
 ---
-**🧠 Challenges Faced & Solutions**
+**Challenges Faced & Solutions**
 
 1)Library Compatibility & Setup
 
-✅ Created and used virtual environments for clean installation.
+Created and used virtual environments for clean installation.
 
 2)Tesseract OCR Installation
 
-✅ Referred to official and community documentation for guidance.
+ Referred to official and community documentation for guidance.
