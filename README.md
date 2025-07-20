@@ -23,7 +23,7 @@ Identifying core problems
 Crafting structured prompts
 
 Testing and refining prompt strategies
-
+---
 🧰 **Tools & Libraries:**
 
 **Read PDF**	              -PyMuPDF (fitz), pdfplumber, PyPDF2
@@ -32,8 +32,8 @@ Testing and refining prompt strategies
 
 **Text Parsing**	         -re (regular expressions)
 
-*OCR (Scanned PDFs)*	    -pytesseract, Pillow, pdf2image
-
+**OCR (Scanned PDFs)**	    -pytesseract, Pillow, pdf2image
+---
 ⚙️ Installation & Approaches
 📄 Text Extraction from Simple PDFs
 Library Used: PyMuPDF (fitz)
