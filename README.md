@@ -1,4 +1,4 @@
-##Introduction: 
+#**Introduction**: 
 Problem 1: PDF Text Extraction
   Extract clean, readable text from two different types of PDF documents and demonstrate your ability to handle various PDF formats.
 Problem 2: Prompt Engineering
