@@ -92,8 +92,7 @@ pdf2image
 Pillow
 ```
 
-
-** Text Cleaning Steps**
+**Text Cleaning Steps**
 
 For Simple PDFs:
 ```bash
