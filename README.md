@@ -33,7 +33,6 @@ Testing and refining prompt strategies
 **Text Parsing**	         -re (regular expressions)
 
 **OCR (Scanned PDFs)**	    -pytesseract, Pillow, pdf2image
-
 ---
 
 ⚙️ **Installation & Approaches:**
@@ -56,7 +55,6 @@ Installation:
 bash
 Copy
 Edit
-```bash
 pip install pytesseract pdf2image pillow
 Tesseract OCR: Install manually (see below)
 
