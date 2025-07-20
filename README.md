@@ -39,7 +39,7 @@ Testing and refining prompt strategies
 
 ⚙️ **Installation & Approaches:**
 
-📄 **Text Extraction from Simple PDFs**
+**📄 Text Extraction from Simple PDFs**
 
 **Library Used:** PyMuPDF (fitz)
 
@@ -47,9 +47,10 @@ Installation:
 
  pip install pymupdf
 
-🖼️** OCR for Scanned PDFs**
 
-**Libraries Used:** pytesseract, pdf2image, Pillow
+**🖼️ OCR for Scanned PDFs**
+
+Libraries Used: pytesseract, pdf2image, Pillow
 
 Installation:
 
@@ -57,11 +58,9 @@ Installation:
 
 
 Tesseract OCR: Install manually (see below)
+---
+**🏗️ Project Structure**
 
-🏗️ Project Structure
-mathematica
-Copy
-Edit
 YUKTHI-PRABHU/
 └── FSMK/
     ├── Problem-1 Complex Text/
@@ -78,14 +77,16 @@ YUKTHI-PRABHU/
     │   ├── implementation_plan.txt
     │   ├── problem_statement.txt
     │   └── prompt_experiment.txt
-📦 requirements.txt
-txt
-Copy
-Edit
+
+---
+
+**📦 requirements.txt**
 pymupdf
 pytesseract
 pdf2image
 Pillow
+
+
 🧹 Text Cleaning Steps
 ✅ For Simple PDFs:
 bash
