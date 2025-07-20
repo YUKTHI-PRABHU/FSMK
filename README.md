@@ -1,24 +1,18 @@
 <h1 style="font-size: 48px;">📄 PDF Text Extraction & Prompt Engineering</h1>
 
  **Introduction**
-##This project is divided into two main problems:
+This project is divided into two main problems:
 
-Problem 1: PDF Text Extraction
+Problem 1: PDF Text Extraction\n
 Extract clean, readable text from two different types of PDF documents:
-
 Simple PDFs (digitally generated)
-
 Scanned PDFs (image-based)
-
 The objective is to demonstrate the ability to handle multiple PDF formats using appropriate extraction techniques.
 
 Problem 2: Prompt Engineering
 Design and iterate effective prompts for large language models (LLMs). This includes:
-
 Identifying core problems
-
 Crafting structured prompts
-
 Testing and refining prompt strategies
 
 🧰 Tools & Libraries Used
