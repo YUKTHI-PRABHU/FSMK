@@ -33,6 +33,7 @@ Testing and refining prompt strategies
 **Text Parsing**	         -re (regular expressions)
 
 **OCR (Scanned PDFs)**	    -pytesseract, Pillow, pdf2image
+
 ---
 
 ⚙️ **Installation & Approaches:**
