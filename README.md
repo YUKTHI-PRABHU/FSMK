@@ -85,20 +85,22 @@ YUKTHI-PRABHU/
 ---
 
 **📦 requirements.txt**
+```
 pymupdf
 pytesseract
 pdf2image
 Pillow
+```
 
 
-🧹 Text Cleaning Steps
+**🧹 Text Cleaning Steps**
+
 ✅ For Simple PDFs:
-bash
-Copy
-Edit
+```bash
 mkdir pdf_extraction
 cd pdf_extraction
 type nul > pjct.py
+```
 
 python -m venv venv
 venv\Scripts\activate
