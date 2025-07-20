@@ -134,39 +134,6 @@ Run:
 ```bash
 python pjct.py
 ```
-
-** Additional Installation**
-1) Install Tesseract OCR
-Tesseract is not a Python package. It must be installed separately.
-
-Download: Tesseract for Windows (UB Mannheim build)
-
-Choose the Windows 64-bit .exe installer.
-
-During installation:
-
-✔️ Select "Add Tesseract to system PATH"
-
-📁 Note installation path: C:\Program Files\Tesseract-OCR\tesseract.exe
-
-2)Install Poppler for Windows (required by pdf2image)
-
-Download: Poppler for Windows
-
-Extract the ZIP to a directory like:
-
-C:\Program Files\poppler-23.11.0\Library\bin
-
-Add this path to your System Environment Variables:
-
-Press Windows + S → Search "Environment Variables"
-
-Click "Edit the system environment variables"
-
-In the System Properties window → Click "Environment Variables"
-
-Edit the Path under System Variables and add the Poppler bin path.
-
 **🧠 Challenges Faced & Solutions**
 
 1)Library Compatibility & Setup
