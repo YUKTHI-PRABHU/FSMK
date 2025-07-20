@@ -14,10 +14,14 @@ Scanned PDFs (image-based)
 
 The objective is to demonstrate the ability to handle multiple PDF formats using appropriate extraction techniques.
 
-Problem 2: Prompt Engineering
+**Problem 2: Prompt Engineering**
+
 Design and iterate effective prompts for large language models (LLMs). This includes:
+
 Identifying core problems
+
 Crafting structured prompts
+
 Testing and refining prompt strategies
 
 🧰 Tools & Libraries Used
