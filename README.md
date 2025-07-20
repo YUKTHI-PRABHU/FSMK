@@ -44,10 +44,9 @@ Testing and refining prompt strategies
 **Library Used:** PyMuPDF (fitz)
 
 Installation:
-<code>
 ```bash
 pip install pymupdf
-</code>
+```bash
 
 🖼️ OCR for Scanned PDFs
 Libraries Used: pytesseract, pdf2image, Pillow
