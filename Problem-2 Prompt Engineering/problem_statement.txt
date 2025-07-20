@@ -20,6 +20,7 @@ Target Audience and Use Cases:
 - Rural families with limited healthcare access
 - ASHA workers (Accredited Social Health Activists)
 - NGOs and state health departments
+
 Use cases include:
 - Fever or injury at home: what to do before reaching a hospital
 - Daily hygiene tips for children
