@@ -114,6 +114,7 @@ Run:
 ```bash
 python pjct.py
 ```
+---
 
 ✅ For Scanned PDFs:
 ```bash
@@ -134,6 +135,7 @@ Run:
 ```bash
 python pjct.py
 ```
+---
 **🧠 Challenges Faced & Solutions**
 
 1)Library Compatibility & Setup
