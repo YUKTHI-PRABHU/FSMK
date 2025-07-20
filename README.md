@@ -116,19 +116,27 @@ python pjct.py
 ```
 
 ✅ For Scanned PDFs:
-bash
-Copy
-Edit
+```bash
 mkdir pdf_extraction
 cd pdf_extraction
 type nul > pjct.py
-
+```
+For creating and activating virtual environment:
+```bash
 python -m venv venv
 venv\Scripts\activate
+```
+Install library:
+```bash
 pip install pytesseract pdf2image pillow
+```
+Run:
+```bash
 python pjct.py
-🔧 Additional Installation
-🧠 Install Tesseract OCR
+```
+
+** Additional Installation**
+1) Install Tesseract OCR
 Tesseract is not a Python package. It must be installed separately.
 
 Download: Tesseract for Windows (UB Mannheim build)
@@ -141,15 +149,14 @@ During installation:
 
 📁 Note installation path: C:\Program Files\Tesseract-OCR\tesseract.exe
 
-📍 Install Poppler for Windows (required by pdf2image)
+2)Install Poppler for Windows (required by pdf2image)
+
 Download: Poppler for Windows
 
 Extract the ZIP to a directory like:
 
-makefile
-Copy
-Edit
 C:\Program Files\poppler-23.11.0\Library\bin
+
 Add this path to your System Environment Variables:
 
 Press Windows + S → Search "Environment Variables"
@@ -160,11 +167,12 @@ In the System Properties window → Click "Environment Variables"
 
 Edit the Path under System Variables and add the Poppler bin path.
 
-🧠 Challenges Faced & Solutions
-Library Compatibility & Setup
+**🧠 Challenges Faced & Solutions**
+
+1)Library Compatibility & Setup
 
 ✅ Created and used virtual environments for clean installation.
 
-Tesseract OCR Installation
+2)Tesseract OCR Installation
 
 ✅ Referred to official and community documentation for guidance.
