@@ -101,11 +101,20 @@ mkdir pdf_extraction
 cd pdf_extraction
 type nul > pjct.py
 ```
-
+For creating and activating virtual environment:
+```bash
 python -m venv venv
 venv\Scripts\activate
+```
+Install library:
+```bash
 pip install pymupdf
+```
+Run:
+```bash
 python pjct.py
+```
+
 ✅ For Scanned PDFs:
 bash
 Copy
