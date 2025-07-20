@@ -26,13 +26,13 @@ Testing and refining prompt strategies
 
 🧰 **Tools & Libraries:**
 
-Read PDF	              -PyMuPDF (fitz), pdfplumber, PyPDF2
+**Read PDF**	              -PyMuPDF (fitz), pdfplumber, PyPDF2
 
-Extract Tables/Images	 -pdfplumber, tabula-py
+**Extract Tables/Images**	 -pdfplumber, tabula-py
 
-Text Parsing 	         -re (regular expressions)
+**Text Parsing**	         -re (regular expressions)
 
-OCR (Scanned PDFs)	    -pytesseract, Pillow, pdf2image
+*OCR (Scanned PDFs)*	    -pytesseract, Pillow, pdf2image
 
 ⚙️ Installation & Approaches
 📄 Text Extraction from Simple PDFs
