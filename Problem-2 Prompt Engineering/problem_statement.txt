@@ -1,10 +1,27 @@
 Problem Title: AI-Powered Health Awareness Chatbot for Rural Communities
 
-Problem Summary:
-In rural areas, limited access to timely and accurate health information leads to the spread of misinformation, late treatments, and poor health outcomes. This gap is further widened by language barriers and low digital literacy. 
+Problem Description and Scope:
+Rural communities often lack access to accurate, timely health information due to geographical isolation, lack of nearby hospitals, and low health literacy. In such areas, people often rely on word-of-mouth, myths, or outdated practices. There is a critical need for a reliable, conversational solution that can offer first-level health awareness and preventive care guidance.
 
-Objective:
-To build an AI-powered chatbot that leverages prompt engineering with LLMs to deliver accessible, multilingual, and trustworthy health awareness information for rural communities in India.
+Social Impact and Significance:
+This chatbot will act as a virtual health assistant, helping underserved populations:
+- Understand basic health symptoms and actions
+- Avoid misinformation (e.g., myths around turmeric milk curing COVID-19)
+- Promote preventive practices like hygiene and vaccinations
+By doing this in regional languages like Kannada, the tool ensures inclusion and accessibility, contributing to improved public health outcomes.
 
-Impact:
-This project promotes preventive healthcare, combats health misinformation, and empowers people with localized and simple medical guidance without the need for a human expert or high infrastructure.
+Programming Challenges Involved:
+- Designing prompts to ensure medically accurate but non-diagnostic advice
+- Translating responses into simple, culturally sensitive language
+- Handling multilingual interactions with tone adaptation
+- Implementing a lightweight frontend accessible even on low-end devices
+
+Target Audience and Use Cases:
+- Rural families with limited healthcare access
+- ASHA workers (Accredited Social Health Activists)
+- NGOs and state health departments
+Use cases include:
+- Fever or injury at home: what to do before reaching a hospital
+- Daily hygiene tips for children
+- Maternal health awareness and vaccinations
+- Busting local myths about food, herbs, and diseases
