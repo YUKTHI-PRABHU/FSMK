@@ -39,7 +39,7 @@ Testing and refining prompt strategies
 
  **Installation & Approaches:**
 
-** Text Extraction from Simple PDFs**
+**Text Extraction from Simple PDFs**
 
 **Library Used:** PyMuPDF (fitz)
 
