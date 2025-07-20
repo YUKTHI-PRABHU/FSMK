@@ -43,7 +43,7 @@ Testing and refining prompt strategies
 
 **Library Used:** PyMuPDF (fitz)
 
-Installation:
+#Installation:
 ```bash
 pip install pymupdf
 ```bash
