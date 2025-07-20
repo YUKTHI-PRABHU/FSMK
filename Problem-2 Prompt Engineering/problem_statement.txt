@@ -1,0 +1,10 @@
+Problem Title: AI-Powered Health Awareness Chatbot for Rural Communities
+
+Problem Summary:
+In rural areas, limited access to timely and accurate health information leads to the spread of misinformation, late treatments, and poor health outcomes. This gap is further widened by language barriers and low digital literacy. 
+
+Objective:
+To build an AI-powered chatbot that leverages prompt engineering with LLMs to deliver accessible, multilingual, and trustworthy health awareness information for rural communities in India.
+
+Impact:
+This project promotes preventive healthcare, combats health misinformation, and empowers people with localized and simple medical guidance without the need for a human expert or high infrastructure.

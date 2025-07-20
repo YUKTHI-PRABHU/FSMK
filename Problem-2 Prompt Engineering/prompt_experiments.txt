@@ -1,0 +1,14 @@
+Prompt Experiment 1:
+Prompt: "You are a trusted health advisor for rural families. What should a mother do if her child has a high fever and the hospital is far?"
+Result: Gave basic first aid tips, hydration suggestions, and when to seek urgent care.
+Improvement: Added location-specific example (e.g., “Use a wet cloth on forehead”).
+
+Prompt Experiment 2:
+Prompt: "Translate this dengue prevention advice to Kannada: 'Keep your surroundings clean. Avoid standing water.'"
+Result: Translation accurate but formal.
+Improvement: Adjusted prompt to "Translate into simple and respectful Kannada for villagers."
+
+Prompt Experiment 3:
+Prompt: "A user says turmeric milk cures COVID. Politely explain the truth using WHO advice."
+Result: LLM corrected the misinformation and added disclaimer.
+Improvement: Prompt modified to include “Do not scare the user, be calm and informative.”

@@ -1,0 +1,73 @@
+
+
+--- Page 1 ---
+Document Type: Simple Text Extraction Test Document
+Date: July 2025
+Purpose: PDF Text Extraction Testing for Kannada LLM Internship
+The Philosophy of Open Source Technology
+and Free Software
+Free Software Movement
+Open source technology represents more than just a development methodology—it embodies a
+fundamental philosophy about freedom, collaboration, and shared knowledge. At its core, the
+free  software  movement  advocates  for  users'  rights  to  run,  study,  modify,  and  distribute
+software. This philosophy stands in stark contrast to proprietary software models where users
+are restricted in how they can use and understand their tools.
+The  Free  Software  Foundation,  founded  by  Richard  Stallman,  established  four  essential
+freedoms: the freedom to run the program for any purpose, to study how it works, to redistribute
+copies,  and  to  distribute  modified  versions.  These  principles  have  shaped  decades  of
+technological  innovation  and  created  a  global  community  of  developers  committed  to
+transparency and user empowerment.
+Free Software Movement Karnataka (FSMK)
+Free  Software  Movement  Karnataka  (FSMK)  is  a  non-profit
+
+
+--- Page 2 ---
+FSMK
+organization working for spreading free software and its ideals. The
+movement is inspired by software freedom visionaries like Richard
+Stallman and Eben Moglen. A small organising team was created in
+2007  and  FSMK's  formation  was  formally  announced  via  several
+mailing lists on April 7, 2009.
+FSMK is driven by volunteers, who by day are software engineers, students, academicians, or
+government officials, and by night are Free Software evangelists. The organization works
+closely with college students through GNU/Linux User Groups (GLUGs), organizing technical
+sessions and events to promote free software adoption and understanding.
+Key Principle: Free software is not about price, but about freedom. Users have the
+fundamental right to control their computing environment and understand the tools they use
+daily.
+FSMK's Impact and Activities
+FSMK has presence in six different districts across Karnataka, namely Bangalore, Mandya,
+Mysore, Hassan, Mangalore and Tumkur. The organization has conducted numerous impactful
+activities including state-level conventions for academicians, winter camps, summer workshops,
+and awareness sessions about free software philosophy.
+One significant initiative by FSMK involves helping small-scale enterprises like DTP shops,
+photography studios, and advertising agencies transition from expensive proprietary software to
+free alternatives like GIMP, Inkscape, Scribus, and Blender. This effort addresses real economic
+challenges faced by these businesses while promoting software freedom.
+The Broader Impact of Free Software
+
+
+--- Page 3 ---
+Free Software Ecosystem
+The philosophy of free software extends beyond individual users to encompass broader social
+and  economic  implications.  Open  source  projects  enable  developing  countries  and  small
+businesses to access sophisticated technology without prohibitive licensing costs. Educational
+institutions benefit from transparent, modifiable software that can be adapted to local needs and
+languages.
+In Karnataka specifically, the adoption of free software has democratic implications. When
+government  institutions  and  educational  systems  use  proprietary  software,  they  create
+dependencies on foreign corporations and limit citizens' ability to understand and audit the tools
+that process their data. Free software promotes technological sovereignty and transparency.
+FSMK has also been active in policy advocacy, conducting protests against internet censorship,
+supporting net neutrality, and raising awareness about electronic surveillance and privacy rights.
+These activities demonstrate how software freedom connects to broader civil liberties and
+democratic participation.
+Conclusion: The free software movement, exemplified by organizations like FSMK,
+represents a fundamental shift toward technological democracy, user empowerment, and
+collaborative innovation. It challenges us to consider not just what technology can do, but
+who controls it and how it serves society.
+This document explores the philosophical foundations of free software and the significant
+contributions of FSMK to Karnataka's technological landscape. It contains approximately 500
+words covering the movement's principles, organizational activities, and broader social
+implications.
+Document ID: TEST-001-FSMK | Page 1 of 1 | Generated for PDF Text Extraction Testing
