@@ -1,100 +1,144 @@
-#**Introduction**: 
+PDF Text Extraction & Prompt Engineering
+📌 Introduction
+This project is divided into two main problems:
+
 Problem 1: PDF Text Extraction
-  Extract clean, readable text from two different types of PDF documents and demonstrate your ability to handle various PDF formats.
+Extract clean, readable text from two different types of PDF documents:
+
+Simple PDFs (digitally generated)
+
+Scanned PDFs (image-based)
+
+The objective is to demonstrate the ability to handle multiple PDF formats using appropriate extraction techniques.
+
 Problem 2: Prompt Engineering
-  Demonstrate your ability to identify problems, design effective prompts, and iterate on solutions using LLM interactions.
+Design and iterate effective prompts for large language models (LLMs). This includes:
 
-#Tools/Libraries Used:
-Read PDF	                 -    PyMuPDF(fitz), pdfplumber, PyPDF2
-Extract tables/images      -  	pdfplumber, tabula-py
-Data parsing	             -    re (regex)
+Identifying core problems
 
+Crafting structured prompts
 
-#Installation /Approches for each PDF type
-Text from simple PDF       -	 PyMuPDF (fitz)	pip install pymupdf
-OCR for scanned PDF	       -   pytesseract + Pillow + pdf2image	pip install pytesseract pillow pdf2image
-Also install Tesseract OCR manually
-Save and clean text	Python standard libs
+Testing and refining prompt strategies
 
+🧰 Tools & Libraries Used
+Task	Tools / Libraries
+Read PDF	PyMuPDF (fitz), pdfplumber, PyPDF2
+Extract Tables/Images	pdfplumber, tabula-py
+Text Parsing	re (regular expressions)
+OCR (Scanned PDFs)	pytesseract, Pillow, pdf2image
 
-#Project Structure:
-YUKTHI-PRABHU/FSMK/
-├── Problem-1 Complex Text/
-    ├── output.txt
-    ___ pjct.py
-    ___text_2.pdf
-├── Problem-1 Simple Text/
-    ├── output.txt
-    ___ pjct.py
-    ___text_1.pdf
-├── Problem-2 Prompt Engineering/
-    ___ conversation_links.txt
-    ___ final_proposal.txt
-    ___implementation_plan.txt
-    ___problem_statement.txt
-    ___prompt_experiment.txt
+⚙️ Installation & Approaches
+📄 Text Extraction from Simple PDFs
+Library Used: PyMuPDF (fitz)
 
-#requirements.txt:
+Installation:
+
+bash
+Copy
+Edit
+pip install pymupdf
+🖼️ OCR for Scanned PDFs
+Libraries Used: pytesseract, pdf2image, Pillow
+
+Installation:
+
+bash
+Copy
+Edit
+pip install pytesseract pdf2image pillow
+Tesseract OCR: Install manually (see below)
+
+🏗️ Project Structure
+mathematica
+Copy
+Edit
+YUKTHI-PRABHU/
+└── FSMK/
+    ├── Problem-1 Complex Text/
+    │   ├── text_2.pdf
+    │   ├── pjct.py
+    │   └── output.txt
+    ├── Problem-1 Simple Text/
+    │   ├── text_1.pdf
+    │   ├── pjct.py
+    │   └── output.txt
+    ├── Problem-2 Prompt Engineering/
+    │   ├── conversation_links.txt
+    │   ├── final_proposal.txt
+    │   ├── implementation_plan.txt
+    │   ├── problem_statement.txt
+    │   └── prompt_experiment.txt
+📦 requirements.txt
+txt
+Copy
+Edit
 pymupdf
 pytesseract
 pdf2image
 Pillow
-
-
-#Text Cleaning Steps Applied for Simple Text:
-mkdir pdf extraction
-cd pdf extraction
+🧹 Text Cleaning Steps
+✅ For Simple PDFs:
+bash
+Copy
+Edit
+mkdir pdf_extraction
+cd pdf_extraction
 type nul > pjct.py
-Use Virtual Environment :
+
 python -m venv venv
-venv\Scripts\activate     
+venv\Scripts\activate
 pip install pymupdf
 python pjct.py
-
-#Text Cleaning Steps Applied for Complex Text:
-mkdir pdf extraction
-cd pdf extraction
+✅ For Scanned PDFs:
+bash
+Copy
+Edit
+mkdir pdf_extraction
+cd pdf_extraction
 type nul > pjct.py
-Use Virtual Environment :
+
 python -m venv venv
-venv\Scripts\activate     
-pip install pytesseract
-pip install pdf2image pillow
+venv\Scripts\activate
 pip install pytesseract pdf2image pillow
 python pjct.py
+🔧 Additional Installation
+🧠 Install Tesseract OCR
+Tesseract is not a Python package. It must be installed separately.
 
-#Installation Steps:
-Install Tesseract OCR separately (it's a system tool, not a Python package)
-Step-by-step for Windows:
-Download Tesseract: https://github.com/UB-Mannheim/tesseract/wiki
-Choose the .exe installer (recommended: the one for Windows 64-bit)
+Download: Tesseract for Windows (UB Mannheim build)
+
+Choose the Windows 64-bit .exe installer.
+
 During installation:
-Select "Add Tesseract to system PATH"
-Take note of install location (usually: C:\Program Files\Tesseract-OCR\tesseract.exe)
 
-Install Poppler for Windows and Add to PATH
-Install Poppler: https://github.com/oschwartz10612/poppler-windows/releases
-Click the latest release, then download the .zip file under "Assets"
-Extract the ZIP file :C:\Program Files\poppler-23.11.0\Library\bin
-Add this path to your System PATH variable
-Press Windows + S → Search Environment Variables
-Click “Edit the system environment variables”
+✔️ Select "Add Tesseract to system PATH"
+
+📁 Note installation path: C:\Program Files\Tesseract-OCR\tesseract.exe
+
+📍 Install Poppler for Windows (required by pdf2image)
+Download: Poppler for Windows
+
+Extract the ZIP to a directory like:
+
+makefile
+Copy
+Edit
+C:\Program Files\poppler-23.11.0\Library\bin
+Add this path to your System Environment Variables:
+
+Press Windows + S → Search "Environment Variables"
+
+Click "Edit the system environment variables"
+
 In the System Properties window → Click "Environment Variables"
-Under System variables, find and edit Path.
 
-##Challenges faced and Solution:
-1.working of libraries
-  Solution:Created a virtual Environment for the installation of required libararies.
-2.Installation of Tesseract OCR
-  Solution:Referred  some online resources for the installation procedure.
+Edit the Path under System Variables and add the Poppler bin path.
 
+🧠 Challenges Faced & Solutions
+Library Compatibility & Setup
 
+✅ Created and used virtual environments for clean installation.
 
+Tesseract OCR Installation
 
- 
-
-
-
-
-
-
+✅ Referred to official and community documentation for guidance.
