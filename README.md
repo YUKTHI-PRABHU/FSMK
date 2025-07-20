@@ -82,6 +82,11 @@ Click “Edit the system environment variables”
 In the System Properties window → Click "Environment Variables"
 Under System variables, find and edit Path.
 
+##Challenges faced and Solution:
+1.working of libraries
+  Solution:Created a virtual Environment for the installation of required libararies.
+2.Installation of Tesseract OCR
+  Solution:Referred  some online resources for the installation procedure.
 
 
 
