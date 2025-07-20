@@ -46,6 +46,7 @@ mkdir pdf extraction
 cd pdf extraction
 type nul > pjct.py
 Use Virtual Environment :
+```bash
 python -m venv venv
 venv\Scripts\activate     
 pip install pymupdf
