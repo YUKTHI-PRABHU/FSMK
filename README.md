@@ -4,12 +4,14 @@
  
 This project is divided into two main problems:
 
-Problem 1: PDF Text Extraction  
+**Problem 1: PDF Text Extraction**  
 
 Extract clean, readable text from two different types of PDF documents:  
 
 Simple PDFs (digitally generated)
+
 Scanned PDFs (image-based)
+
 The objective is to demonstrate the ability to handle multiple PDF formats using appropriate extraction techniques.
 
 Problem 2: Prompt Engineering
