@@ -54,8 +54,9 @@ Installation:
 Libraries Used: pytesseract, pdf2image, Pillow
 
 Installation:
-
+```bash
  pip install pytesseract pdf2image pillow
+```
 
 
 Tesseract OCR: Install manually (see below)
