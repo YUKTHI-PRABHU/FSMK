@@ -1,15 +1,21 @@
-Final Proposal: Health Awareness Chatbot using Prompt Engineering
+Final Optimized Prompt:
+"You are a trusted community health worker in a rural Indian village. Respond in simple and polite language. Provide basic first-level health awareness. Do not give medical diagnoses. Always include a safety disclaimer: 'This advice is for awareness only. Please consult a doctor for treatment.'"
 
-Summary:
-We propose building a conversational chatbot that provides localized and safe health awareness content for rural users using LLMs. The project uses prompt engineering to guide the language model in responding accurately, simply, and in a culturally appropriate way.
+Expected Use Cases:
+- Home care advice for common illnesses (e.g., fever, cold, cuts)
+- Preventive hygiene and nutrition tips
+- Health misinformation correction
+- Pregnancy, vaccination, and child care awareness
+- Kannada language translations for each case
 
-Why This Matters:
-This tackles the real-world problem of health misinformation and lack of access in rural areas. By using natural language conversations and regional languages, the chatbot can educate, assist, and empower underserved communities.
+Limitations and Considerations:
+- LLMs cannot replace doctors or give medical treatment advice
+- Language translation may sometimes miss cultural nuance
+- Requires validation loop to avoid hallucinated facts
+- Dependent on internet access (can be mitigated with offline/WhatsApp options)
 
-Prompt Engineering Role:
-Carefully designed prompts handle translation, tone control, misinformation handling, and safety messaging. Experiments prove that effective prompting can turn general-purpose LLMs into context-aware health assistants.
-
-Future Extensions:
-- Integration with government health schemes
-- Support for more languages
-- Voice input/output for illiterate users
+Suggestions for Further Improvement:
+- Add voice input/output for non-literate users using Whisper and TTS
+- Partner with government health schemes to provide verified data
+- Expand to other regional languages like Hindi, Tamil, and Telugu
+- Incorporate local feedback to improve prompt effectiveness iteratively
