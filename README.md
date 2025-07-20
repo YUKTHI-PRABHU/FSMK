@@ -51,7 +51,7 @@ Installation:
 
 **🖼️ OCR for Scanned PDFs**
 
-Libraries Used: pytesseract, pdf2image, Pillow
+**Libraries Used:** pytesseract, pdf2image, Pillow
 
 Installation:
 ```bash
