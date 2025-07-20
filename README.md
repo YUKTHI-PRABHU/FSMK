@@ -1,4 +1,5 @@
-PDF Text Extraction & Prompt Engineering
+<h1 style="font-size: 48px;">📄 PDF Text Extraction & Prompt Engineering</h1>
+
 📌 Introduction
 This project is divided into two main problems:
 
