@@ -24,12 +24,15 @@ Crafting structured prompts
 
 Testing and refining prompt strategies
 
-🧰 Tools & Libraries Used
-Task	Tools / Libraries
-Read PDF	PyMuPDF (fitz), pdfplumber, PyPDF2
-Extract Tables/Images	pdfplumber, tabula-py
-Text Parsing	re (regular expressions)
-OCR (Scanned PDFs)	pytesseract, Pillow, pdf2image
+🧰 **Tools & Libraries:**
+
+Read PDF	              -PyMuPDF (fitz), pdfplumber, PyPDF2
+
+Extract Tables/Images	 -pdfplumber, tabula-py
+
+Text Parsing 	         -re (regular expressions)
+
+OCR (Scanned PDFs)	    -pytesseract, Pillow, pdf2image
 
 ⚙️ Installation & Approaches
 📄 Text Extraction from Simple PDFs
