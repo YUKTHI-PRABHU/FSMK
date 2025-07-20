@@ -64,7 +64,7 @@ Tesseract OCR: Install manually (see below)
 ---
 
 **🏗️ Project Structure**
-
+```
 YUKTHI-PRABHU/
 └── FSMK/
     ├── Problem-1 Complex Text/ 
@@ -81,7 +81,7 @@ YUKTHI-PRABHU/
     │   ├── implementation_plan.txt
     │   ├── problem_statement.txt
     │   └── prompt_experiment.txt
-
+```
 ---
 
 **📦 requirements.txt**
