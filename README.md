@@ -33,17 +33,21 @@ Testing and refining prompt strategies
 **Text Parsing**	         -re (regular expressions)
 
 **OCR (Scanned PDFs)**	    -pytesseract, Pillow, pdf2image
+
 ---
-⚙️ Installation & Approaches
+
+⚙️ **Installation & Approaches:**
+
 📄 Text Extraction from Simple PDFs
-Library Used: PyMuPDF (fitz)
+
+**Library Used:** PyMuPDF (fitz)
 
 Installation:
-
-bash
-Copy
-Edit
+<code>
+```bash
 pip install pymupdf
+</code>
+
 🖼️ OCR for Scanned PDFs
 Libraries Used: pytesseract, pdf2image, Pillow
 
