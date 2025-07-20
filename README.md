@@ -46,6 +46,7 @@ Installation:
 bash
 Copy
 Edit
+```bash
 pip install pytesseract pdf2image pillow
 Tesseract OCR: Install manually (see below)
 
